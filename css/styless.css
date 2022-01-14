@@ -1,13 +1,25 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 100%;
   max-width: 1310px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 .contacts__list {
   list-style: none;
+  font-family: "DM Sans", sans-serif;
 }
 .contacts__item {
   padding: 43px 20px;
@@ -15,6 +27,52 @@
   border-radius: 24px;
   box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1);
 }
+.contacts__wrap {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-top: 1px solid rgba(225, 225, 225, 1);
+}
+.contacts__wrap:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+.contacts__wrap:last-child {
+  margin-bottom: 0;
+}
 .contacts__title {
-  text-decoration: uppercase;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: rgba(240, 209, 165, 1);
+  width: 80px;
+  border-radius: 4px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  line-height: 1.83;
+  margin-bottom: 25px;
+}
+.contacts__location {
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0.04em;
+  line-height: 1.83;
+  margin-bottom: 10px;
+}
+.contacts__location-text {
+  font-size: 12px;
+  color: #907e82;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+.contacts__date {
+  font-size: 12px;
+  color: #000000;
+  letter-spacing: 0.04em;
+  line-height: 1.83;
+}
+.contacts__time {
+  font-size: 12px;
+  color: #ffa5ba;
+  letter-spacing: 0.04em;
+  line-height: 1.83;
 }
